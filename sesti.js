@@ -9,6 +9,8 @@ const axios=require("axios");
 
 app.get("/vic", async(req, res)=>
 {
+
+    
     try
     {
         const odgovor=await axios.get("https://v2.jokeapi.dev/joke/Any?format=json");
